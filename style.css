@@ -1,0 +1,9 @@
+#listNav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#exo-1{
+    background-color: gray;
+}
