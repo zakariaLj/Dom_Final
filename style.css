@@ -7,3 +7,10 @@
 #exo-1{
     background-color: gray;
 }
+.d-none{
+    display: none;
+}
+
+.d-Block{
+    display: block;
+}
