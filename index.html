@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Exo Dom</title>
 </head>
@@ -17,11 +16,9 @@
     <nav class="navbar navbar-dark bg-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <a class="navbar-brand" href="#"></a>
-            <img style="width: 50px; height: 50px;" src="./image/comprendre-et-manipuler-le-dom-en-javascript.png"
-                alt="" srcset="">
+            <img style="width: 50px; height: 50px;" src="./image/comprendre-et-manipuler-le-dom-en-javascript.png" alt="" srcset="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -70,8 +67,7 @@
                 <li>Style</li>
                 <li>classList</li>
             </ul>
-            <p> Changer le contenu de h2 par" le titre modifié" <br>
-                changer la couleur de h2 (la couleur que vous voulez ajouter sera une classe bootstrap</p>
+            <p> Changer le contenu de h2 par" le titre modifié" <br> changer la couleur de h2 (la couleur que vous voulez ajouter sera une classe bootstrap</p>
             <button id="tryIt"> Try it </button>
         </div>`
 
@@ -87,21 +83,46 @@
 
         <div id="exo-3">
             <h2> Welcome <span id="SpanName">inconnu</span> </h2>
-            <p>Ecrivez dans l'input ci-dessous le nom de la personne que vous desirez acceuillir <br>
-                Lorsque vous cliquez sur le bouton " go",le nom que vous avez ajouter dans l'input sera alorsdans le
-                span du h2 <br>
-                l'input sera alors vider de tout contenu. <br>
-                Attention interdiction de toucher a l'HTML</p>
+            <p>Ecrivez dans l'input ci-dessous le nom de la personne que vous desirez acceuillir <br> Lorsque vous cliquez sur le bouton " go",le nom que vous avez ajouter dans l'input sera alorsdans le span du h2 <br> l'input sera alors vider de tout contenu.
+                <br> Attention interdiction de toucher a l'HTML</p>
 
-                <input type="text" id="entrerNom"> <button id="Btgo"> go </button>
+            <input type="text" id="entrerNom"> <button id="Btgo"> go </button>
         </div>
 
     </div>
     <div id="pageExo4" class="d-none">
 
-        <div>
-            <p>Mettre un écouteur d'événement sur les boutons nav 4</p>
+        <div style="background-color: gainsboro; height: 1000px;margin: 30px;">
+            <p style="color: rgb(5, 27, 32);"> Déplacer</p>
+
+            <div style="display: flex; justify-content: space-around;">
+                <div style="background-color: rgb(60, 155, 99);display: flex; height: 200px; width: 200px;">
+
+                    <div id="carreRouge1">
+                        1
+                    </div>
+                </div>
+                <div style="background-color :rgb(60, 155, 99) ;height: 200px; width: 200px; display: flex;justify-content: center;">
+
+                    <div id="carreRouge2">
+                        2
+                    </div>
+                </div>
+
+            </div>
+            <div style="display: flex;justify-content:center;">
+                <button id="bouttonChng"> change the position</button>
+            </div>
+            <div style="display: flex;justify-content:center; margin-top: 20px;">
+                <button id="boutonMoove"> <span id="nbrMove"></span> nbr de Mooove</button>
+            </div>
+
+
+
         </div>
+
+
+    </div>
 
     </div>
     <div id="pageExo5" class="d-none">

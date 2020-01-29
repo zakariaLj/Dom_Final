@@ -1,20 +1,33 @@
-#listNav{
+#listNav {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-#exo-1{
-    background-color: gray;
+#exo-1 {
+    background-color: gainsboro;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
 
-.d-Block{
+.d-Block {
     display: block;
 }
 
-#exo-3{
-    background-color: gray;
+#exo-3 {
+    background-color: gainsboro;
+}
+
+.carreRouge {
+    background-color: rgb(93, 95, 94);
+    height: 50PX;
+    width: 50px;
+    margin: 50px;
+    display: block;
+}
+
+#boutonMoove {
+    background-color: yellow;
 }
