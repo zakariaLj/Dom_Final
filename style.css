@@ -35,3 +35,24 @@
 #pageExo5 {
     background-color: gainsboro;
 }
+
+
+/* Calculette niveau 1 */
+
+#calculetteNiveau1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-group mb-3 {
+    width: 20%;
+    height: 60px;
+}
+
+
+/* calculette Niveau 2 */
+
+#calculetteNV2 {
+    background-color: lightslategrey;
+}
